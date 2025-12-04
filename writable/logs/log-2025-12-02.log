@@ -1,0 +1,289 @@
+DEBUG - 2025-12-02 11:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 11:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 12:16:45 --> Error: Class "App\Controllers\Admin\BaseController" not found
+[Method: GET, Route: admin/modules]
+in APPPATH\Controllers\Admin\ModuleController.php on line 7.
+ 1 VENDORPATH\composer\ClassLoader.php(576): include()
+ 2 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\Work\\xampp824\\htdocs\\ciproject\\vendor\\composer/../../app\\Controllers\\Admin\\ModuleController.php')
+ 3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Admin\\ModuleController')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Admin\\ModuleController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Work\\xampp824\\htdocs\\ciproject\\public\\index.php')
+DEBUG - 2025-12-02 12:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 12:18:07 --> Error: Class "App\Models\Admin\ModulesModel" not found
+[Method: GET, Route: admin/modules]
+in APPPATH\Controllers\Admin\ModuleController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ModuleController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ModuleController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Work\\xampp824\\htdocs\\ciproject\\public\\index.php')
+DEBUG - 2025-12-02 12:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 12:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 13:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 13:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 13:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 13:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 13:42:28 --> TypeError: implode(): Argument #2 ($array) must be of type ?array, string given
+[Method: GET, Route: admin/modules]
+in APPPATH\Views\admin\module_grid.php on line 79.
+ 1 APPPATH\Views\admin\module_grid.php(79): implode(',', '["add","view"]')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Views\\admin\\module_grid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/module_grid', [], true)
+ 5 APPPATH\Controllers\Admin\ModuleController.php(43): view('admin/module_grid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ModuleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ModuleController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Work\\xampp824\\htdocs\\ciproject\\public\\index.php')
+DEBUG - 2025-12-02 13:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 13:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 13:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 13:43:10 --> Error: Call to undefined function uc_first()
+[Method: GET, Route: admin/modules]
+in APPPATH\Views\admin\module_grid.php on line 79.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/module_grid', [], true)
+ 4 APPPATH\Controllers\Admin\ModuleController.php(43): view('admin/module_grid', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ModuleController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ModuleController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Work\\xampp824\\htdocs\\ciproject\\public\\index.php')
+DEBUG - 2025-12-02 13:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 13:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 13:43:50 --> TypeError: ucfirst(): Argument #1 ($string) must be of type string, array given
+[Method: GET, Route: admin/modules]
+in APPPATH\Views\admin\module_grid.php on line 79.
+ 1 APPPATH\Views\admin\module_grid.php(79): ucfirst([...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Views\\admin\\module_grid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/module_grid', [], true)
+ 5 APPPATH\Controllers\Admin\ModuleController.php(43): view('admin/module_grid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ModuleController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ModuleController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Work\\xampp824\\htdocs\\ciproject\\public\\index.php')
+DEBUG - 2025-12-02 13:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 13:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 14:38:09 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given
+[Method: GET, Route: admin/modules/edit/1]
+in APPPATH\Views\admin\module_form.php on line 16.
+ 1 APPPATH\Views\admin\module_form.php(16): in_array('add,view', 'add')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Views\\admin\\module_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/module_form', [], true)
+ 5 APPPATH\Controllers\Admin\ModuleController.php(83): view('admin/module_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ModuleController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ModuleController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Work\\xampp824\\htdocs\\ciproject\\public\\index.php')
+CRITICAL - 2025-12-02 14:38:31 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, string given
+[Method: GET, Route: admin/modules/edit/1]
+in APPPATH\Views\admin\module_form.php on line 16.
+ 1 APPPATH\Views\admin\module_form.php(16): in_array('add', 'add,view')
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Views\\admin\\module_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/module_form', [], true)
+ 5 APPPATH\Controllers\Admin\ModuleController.php(83): view('admin/module_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ModuleController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ModuleController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Work\\xampp824\\htdocs\\ciproject\\public\\index.php')
+DEBUG - 2025-12-02 14:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 14:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 15:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 15:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 15:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 15:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 15:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 15:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 15:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 15:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 16:04:37 --> ErrorException: Undefined variable $module_action
+[Method: GET, Route: admin/scopes/create]
+in APPPATH\Views\admin\scope_form.php on line 25.
+ 1 APPPATH\Views\admin\scope_form.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $module_action', 'D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Views\\admin\\scope_form.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Views\\admin\\scope_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/scope_form', [], true)
+ 5 APPPATH\Controllers\Admin\ScopeController.php(53): view('admin/scope_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ScopeController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ScopeController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Work\\xampp824\\htdocs\\ciproject\\public\\index.php')
+CRITICAL - 2025-12-02 16:04:57 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/scopes/create]
+in APPPATH\Views\admin\scope_form.php on line 25.
+ 1 APPPATH\Views\admin\scope_form.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Views\\admin\\scope_form.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Views\\admin\\scope_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/scope_form', [], true)
+ 5 APPPATH\Controllers\Admin\ScopeController.php(53): view('admin/scope_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ScopeController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ScopeController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Work\\xampp824\\htdocs\\ciproject\\public\\index.php')
+CRITICAL - 2025-12-02 16:17:19 --> ErrorException: Undefined variable $modulesModel
+[Method: POST, Route: admin/scopes/store]
+in APPPATH\Controllers\Admin\ScopeController.php on line 60.
+ 1 APPPATH\Controllers\Admin\ScopeController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modulesModel', 'D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Controllers\\Admin\\ScopeController.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ScopeController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ScopeController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Work\\xampp824\\htdocs\\ciproject\\public\\index.php')
+CRITICAL - 2025-12-02 16:18:52 --> ErrorException: Undefined array key "module_QR Data"
+[Method: POST, Route: admin/scopes/store]
+in APPPATH\Controllers\Admin\ScopeController.php on line 66.
+ 1 APPPATH\Controllers\Admin\ScopeController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "module_QR Data"', 'D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Controllers\\Admin\\ScopeController.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ScopeController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ScopeController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Work\\xampp824\\htdocs\\ciproject\\public\\index.php')
+CRITICAL - 2025-12-02 17:58:11 --> ErrorException: Undefined array key "QR Data_action"
+[Method: POST, Route: admin/scopes/store]
+in APPPATH\Controllers\Admin\ScopeController.php on line 70.
+ 1 APPPATH\Controllers\Admin\ScopeController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "QR Data_action"', 'D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Controllers\\Admin\\ScopeController.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ScopeController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ScopeController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Work\\xampp824\\htdocs\\ciproject\\public\\index.php')
+CRITICAL - 2025-12-02 18:13:25 --> ErrorException: Undefined array key "module_name"
+[Method: POST, Route: admin/scopes/store]
+in APPPATH\Controllers\Admin\ScopeController.php on line 72.
+ 1 APPPATH\Controllers\Admin\ScopeController.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "module_name"', 'D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Controllers\\Admin\\ScopeController.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ScopeController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ScopeController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Work\\xampp824\\htdocs\\ciproject\\public\\index.php')
+DEBUG - 2025-12-02 18:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 18:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 18:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 18:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 18:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 18:14:04 --> ErrorException: Undefined array key "scope_name"
+[Method: GET, Route: admin/scopes]
+in APPPATH\Views\admin\scope_grid.php on line 78.
+ 1 APPPATH\Views\admin\scope_grid.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "scope_name"', 'D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Views\\admin\\scope_grid.php', 78)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Views\\admin\\scope_grid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/scope_grid', [], true)
+ 5 APPPATH\Controllers\Admin\ScopeController.php(44): view('admin/scope_grid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ScopeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ScopeController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Work\\xampp824\\htdocs\\ciproject\\public\\index.php')
+DEBUG - 2025-12-02 18:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 18:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 18:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 18:15:17 --> ErrorException: Undefined array key "scope_name"
+[Method: GET, Route: admin/scopes]
+in APPPATH\Views\admin\scope_grid.php on line 78.
+ 1 APPPATH\Views\admin\scope_grid.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "scope_name"', 'D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Views\\admin\\scope_grid.php', 78)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Views\\admin\\scope_grid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/scope_grid', [], true)
+ 5 APPPATH\Controllers\Admin\ScopeController.php(44): view('admin/scope_grid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ScopeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ScopeController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Work\\xampp824\\htdocs\\ciproject\\public\\index.php')
+DEBUG - 2025-12-02 18:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 18:16:11 --> ErrorException: Undefined array key "scope_name"
+[Method: GET, Route: admin/scopes]
+in APPPATH\Views\admin\scope_grid.php on line 78.
+ 1 APPPATH\Views\admin\scope_grid.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "scope_name"', 'D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Views\\admin\\scope_grid.php', 78)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Views\\admin\\scope_grid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/scope_grid', [], true)
+ 5 APPPATH\Controllers\Admin\ScopeController.php(44): view('admin/scope_grid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ScopeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ScopeController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Work\\xampp824\\htdocs\\ciproject\\public\\index.php')
+DEBUG - 2025-12-02 18:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 18:16:23 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: admin/scopes]
+in APPPATH\Views\admin\scope_grid.php on line 79.
+ 1 APPPATH\Views\admin\scope_grid.php(79): implode(', ', [...])
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Views\\admin\\scope_grid.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/scope_grid', [], true)
+ 5 APPPATH\Controllers\Admin\ScopeController.php(44): view('admin/scope_grid', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ScopeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ScopeController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Work\\xampp824\\htdocs\\ciproject\\public\\index.php')
+DEBUG - 2025-12-02 18:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-02 18:50:32 --> ErrorException: Undefined array key "scope_name"
+[Method: POST, Route: admin/scopes/update/2]
+in APPPATH\Controllers\Admin\ScopeController.php on line 117.
+ 1 APPPATH\Controllers\Admin\ScopeController.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "scope_name"', 'D:\\Work\\xampp824\\htdocs\\ciproject\\app\\Controllers\\Admin\\ScopeController.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\ScopeController->update('2')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\ScopeController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Work\\xampp824\\htdocs\\ciproject\\public\\index.php')
+DEBUG - 2025-12-02 18:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 18:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-02 18:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

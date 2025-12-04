@@ -1,0 +1,6 @@
+.td_show, .th_show{
+    display:block;
+}
+.td_hide, .th_hide{
+    display:none;
+}
